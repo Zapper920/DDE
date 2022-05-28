@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 80px;
+      background-color: #85050581;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      text-align: center;
+      padding: 10px;
+    }
+
+    a.buttonText {
+      display: block;
+      color:white;
+      text-decoration: none;
+    }
+
+    li.button {
+      display: block;
+      color: white;
+      padding: 8px 8px;
+      text-decoration: none;
+    }
+
+    li.button.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    li.button:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+  </style>
+  <body>
+    <ul>
+      <li><img src="./src/profilepic2.png" alt="" width="50vw"></li><br>
+      <li class="button"><img src="./src/home.svg" height="40
+        vw" alt="Text"><br>
+      </li><br>
+      <li class="button"><img src="./src/works.svg" height="40
+        vw" alt="Text"><br>
+      </li><br>
+      <li class="button"><img src="./src/about.svg" height="40
+        vw" alt="Text"><br>
+      </li><br>
+      <li class="button"><img src="./src/contact.svg" height="40
+        vw" alt="Text"><br>
+      </li><br>
+    </ul>
+    <div style="margin-left:100px;padding:1px 16px;">
+      <h1 style="text-align: center; font-family: Lato; font:bold">Home</h1>
+      <h1 style="text-align: center; font-family: Lato; font:bold">Contact</h1>
+      <p>dealloga@msu.edu</p>
+      <p>(586) 206-4857</p>
+    </div>
+  </body>
+</html>
